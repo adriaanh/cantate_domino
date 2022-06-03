@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Repertoire
+layout: post
 description: Ons repertoire
-image: /assets/images/pic11.jpg
+image: /assets/images/michael-maasen-bu-6knwqj6u-unsplash.jpg
 nav-menu: true
 ---
 
