@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Dirigent
+layout: post
 description: Over de dirigent
-image: /assets/images/pic11.jpg
+image: /assets/images/kazuo-ota-zekgi6uz93w-unsplash.jpg
 nav-menu: true
 ---
 
