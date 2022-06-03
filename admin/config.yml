@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "assets/images" # Media files will be stored in the repo under images
+public_folder: "/assets/images" # The src attribute for uploaded media will begin with /assets/images
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Jekyll templates are not rendered properly
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Koor Page'
+        name: 'koor'
+        file: 'koor.md'
+        fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'Generic' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+            - { label: 'Description', name: 'description', widget: 'string' }
+            - { label: "Image", name: "image", widget: "image"}
+            - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
+            - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Dirigent Page'
+        name: 'dirigent'
+        file: 'dirigent.md'
+        fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'Generic' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+            - { label: 'Description', name: 'description', widget: 'string' }
+            - { label: "Image", name: "image", widget: "image"}
+            - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
+            - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Repertoire Page'
+        name: 'repertoire'
+        file: 'repertoire.md'
+        fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'Generic' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+            - { label: 'Description', name: 'description', widget: 'string' }
+            - { label: "Image", name: "image", widget: "image"}
+            - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
+            - { label: 'Body', name: 'body', widget: 'markdown' }
