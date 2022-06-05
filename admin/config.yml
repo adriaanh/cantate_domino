@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: "assets/images" # Media files will be stored in the repo under images
-public_folder: "/assets/images" # The src attribute for uploaded media will begin with /assets/images
+media_folder: "assets/uploads" # Media files will be stored in the repo under images
+public_folder: "/assets/uploads" # The src attribute for uploaded media will begin with /assets/uploads
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
@@ -20,7 +20,7 @@ collections:
       - { label: "Show image on post page", name: "show-image-page", widget: "boolean", default: true }
       - { label: "Show image on news page", name: "show-image-news", widget: "boolean",  default: true }
       - { label: "Youtube ID", name: "youtubeId", widget: "string"}
-      - { label: "Attachments", name: "attachments", widget: "file", media_library: { media_folder: "/assets/uploads"} }
+      - { label: "Attachments", name: "attachments", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown"}
   - name: 'pages'
     label: 'Pages'

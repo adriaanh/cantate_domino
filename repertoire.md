@@ -2,7 +2,7 @@
 title: Repertoire
 layout: post
 description: Ons repertoire
-image: /assets/images/michael-maasen-bu-6knwqj6u-unsplash.jpg
+image: /assets/uploads/michael-maasen-bu-6knwqj6u-unsplash.jpg
 nav-menu: true
 show-image: false
 ---

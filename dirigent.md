@@ -2,7 +2,7 @@
 title: Dirigent
 layout: post
 description: Over de dirigent
-image: /assets/images/kazuo-ota-zekgi6uz93w-unsplash.jpg
+image: /assets/uploads/kazuo-ota-zekgi6uz93w-unsplash.jpg
 nav-menu: true
 show-image: true
 ---

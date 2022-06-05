@@ -2,7 +2,7 @@
 title: Koor
 layout: post
 description: Over het koor
-image: /assets/images/david-beale-gosggt4olns-unsplash.jpg
+image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 nav-menu: true
 show-image: true
 ---
