@@ -29,13 +29,9 @@
         {% endif %}
 		{{ content }}
         {% if page.attachment %}
-        {{ page.attachment }}
-        {% endif %}
-        {% if page.file %}
-        {{ page.file }}
-        {% endif %}
-        {% if page.filename %}
-        {{ page.filename }}
+        <div class="box">
+		    <a href="{{ page.attachment.file }}" class="icon fa-download">&nbsp;&nbsp;{{ page.attachment.filename}}</a>
+        </div>
         {% endif %}
         {% if page.youtubeId %}
         {% include youtubePlayer.html id=page.youtubeId %}

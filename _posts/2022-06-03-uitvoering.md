@@ -9,7 +9,6 @@ show-image-news: false
 attachment:
   file: /assets/uploads/bwv030-v-p.pdf
   filename: Bach dingen
-attachments: /assets/uploads/bwv030-v-p.pdf
 show-image-page: true
 youtubeId: ClRCLHnXmWQ
 ---
