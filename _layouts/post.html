@@ -22,12 +22,15 @@
 		<header class="major">
 			<h1>{{ page.title }}</h1>
 		</header>
-		{% if page.show-image %}
+		{% if page.show-image-post %}
         {% if page.image %}
         <span class="image main"><img src="{{ page.image }}" alt="" /></span>
         {% endif %}
         {% endif %}
 		{{ content }}
+        {% if page.youtubeId %}
+        {% include youtubePlayer.html id=page.youtubeId %}
+        {% endif %}
 	</div>
 </section>
 

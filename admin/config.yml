@@ -12,13 +12,15 @@ collections:
     editor:
       preview: false # Jekyll templates are not rendered properly
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Image", name: "image", widget: "image"}
-      - { label: "Show image on post", name: "show-image", widget: "boolean"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Description", name: "description", widget: "string"}
+      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Image", name: "image", widget: "image"}
+      - { label: "Show image on post page", name: "show-image-page", widget: "boolean", default: true }
+      - { label: "Show image on news page", name: "show-image-news", widget: "boolean",  default: true }
+      - { label: "Youtube ID", name: "youtubeId", widget: "string"}
+      - { label: "Body", name: "body", widget: "markdown"}
   - name: 'pages'
     label: 'Pages'
     editor:
@@ -32,6 +34,7 @@ collections:
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
             - { label: "Image", name: "image", widget: "image"}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string"}
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Dirigent Page'
@@ -42,6 +45,7 @@ collections:
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
             - { label: "Image", name: "image", widget: "image"}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string"}
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Repertoire Page'
@@ -52,5 +56,6 @@ collections:
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
             - { label: "Image", name: "image", widget: "image"}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string"}
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
