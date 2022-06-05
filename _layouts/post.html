@@ -28,6 +28,15 @@
         {% endif %}
         {% endif %}
 		{{ content }}
+        {% if page.attachment %}
+        {{ page.attachment }}
+        {% endif %}
+        {% if page.file %}
+        {{ page.file }}
+        {% endif %}
+        {% if page.filename %}
+        {{ page.filename }}
+        {% endif %}
         {% if page.youtubeId %}
         {% include youtubePlayer.html id=page.youtubeId %}
         {% endif %}
