@@ -20,7 +20,7 @@ collections:
       - { label: "Show image on post page", name: "show-image-page", widget: "boolean", default: true }
       - { label: "Show image on news page", name: "show-image-news", widget: "boolean",  default: true }
       - { label: "Youtube ID", name: "youtubeId", widget: "string"}
-      - { label: "Attachments", name: "attachments", widget: "file", media_library: { media_folder: "assets/uploads"} }
+      - { label: "Attachments", name: "attachments", widget: "file", media_library: { media_folder: "/assets/uploads"} }
       - { label: "Body", name: "body", widget: "markdown"}
   - name: 'pages'
     label: 'Pages'
