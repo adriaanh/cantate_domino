@@ -39,8 +39,8 @@ collections:
             - { label: 'Title', name: 'title', widget: 'hidden', default: 'Generic' }
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
-            - { label: "Image", name: "image", widget: "image"}
-            - { label: "Youtube ID", name: "youtubeId", widget: "string"}
+            - { label: "Image", name: "image", widget: "image", required: false}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string", required: false}
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Dirigent Page'
@@ -50,8 +50,8 @@ collections:
             - { label: 'Title', name: 'title', widget: 'hidden', default: 'Generic' }
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
-            - { label: "Image", name: "image", widget: "image"}
-            - { label: "Youtube ID", name: "youtubeId", widget: "string"}
+            - { label: "Image", name: "image", widget: "image", required: false}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string", required: false}
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Repertoire Page'
@@ -61,7 +61,7 @@ collections:
             - { label: 'Title', name: 'title', widget: 'hidden', default: 'Generic' }
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
-            - { label: "Image", name: "image", widget: "image"}
-            - { label: "Youtube ID", name: "youtubeId", widget: "string"}
+            - { label: "Image", name: "image", widget: "image", required: false}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string", required: false}
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
