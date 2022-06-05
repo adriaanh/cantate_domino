@@ -2,7 +2,7 @@
 show-image-post: false
 layout: post
 title: Uitvoering 10 juni
-date: 2022-06-03T13:00:20.201Z
+date: 2022-06-02T13:00:20.201Z
 image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 show-image-page: true
 show-image-news: false
