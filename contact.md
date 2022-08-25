@@ -6,7 +6,7 @@ image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 nav-menu: true
 show-image: false
 homepage: false
-sort: 4
+sort: 5
 ---
 Het bestuur bestaat uit:
 Simon den Hartigh, voorzitter

@@ -75,6 +75,18 @@ collections:
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: "On homepage", name: "homepage", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Plaatsen Page'
+        name: 'plaatsen'
+        file: 'plaatsen.md'
+        fields:
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'Plaatsen' }
+            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+            - { label: 'Description', name: 'description', widget: 'string' }
+            - { label: "Image", name: "image", widget: "image", required: false}
+            - { label: "Youtube ID", name: "youtubeId", widget: "string", required: false}
+            - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
+            - { label: "On homepage", name: "homepage", widget: "boolean"}
+            - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Contact Page'
         name: 'contact'
         file: 'contact.md'
