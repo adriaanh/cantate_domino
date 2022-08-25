@@ -63,11 +63,11 @@ collections:
             - { label: "In navigation menu", name: "nav-menu", widget: "boolean"}
             - { label: "On homepage", name: "homepage", widget: "boolean"}
             - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Repertoire Page'
-        name: 'repertoire'
-        file: 'repertoire.md'
+      - label: 'Componisten Page'
+        name: 'componisten'
+        file: 'componisten.md'
         fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'Repertoire' }
+            - { label: 'Title', name: 'title', widget: 'hidden', default: 'Componisten' }
             - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
             - { label: 'Description', name: 'description', widget: 'string' }
             - { label: "Image", name: "image", widget: "image", required: false}
