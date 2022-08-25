@@ -3,44 +3,50 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form action="https://formspree.io/f/mgeddjjp" method="POST">
-				<div class="field half first">
-					<label for="name">Naam</label>
-					<input type="text" name="naam" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Bericht</label>
-					<textarea name="message" id="bericht" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Verstuur" class="special" /></li>
-					<li><input type="reset" value="Wis" /></li>
-				</ul>
-			</form>
+            Het bestuur bestaat uit:
+            <ul>
+                <li>Simon den Hartigh, voorzitter</li>
+                <li>Cor Bouman, secretaris</li>
+                <li>Wim de Jong, algemene zaken</li>
+            </ul>
+            Het bestuur is bereikbaar op dit centrale mailadres: <a href="mailto:wim@jwgroep.nl">wim@jwgroep.nl</a>
 		</section>
 		<section class="split">
+            <section>
+                <p>Ook de dirigent is bereikbaar. Niet voor beleid. Wel voor praktische zaken:</p>
+                Piet den Uil<br />
+                Oosteinde 22<br />
+                2969 AS Oud-Alblas<br />
+                0184-694471 (huistelefoon)<br />
+                06-48482770 (whatsapp / telefoon echtgenote)<br />
+                <a href="mailto:pcdenuil@live.nl">pcdenuil@live.nl</a>
+            </section>
+
+		</section>
+        <!-- 
+		<section class="split">
+            <section>
+   			  Ook de dirigent is bereikbaar. Niet voor beleid. Wel voor praktische zaken.
+			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                    <a href="mailto:pcdenuil@live.nl">pcdenuil@live.nl</a> (dirigent)
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
 					<h3>Telefoon</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+					<a href="tel:0184-694471 ">0184-694471</a> (huistelefoon dirigent)<br />
+                    of (ook met app) op 06-48482770 (telefoon echtgenote)
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Adres</h3>
+					<h3>Adres dirigent</h3>
 					<span>
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
@@ -57,7 +63,7 @@
 					</span>
 				</div>
 			</section>
-		</section>
+		</section> -->
 	</div>
 </section>
 {% endif %}

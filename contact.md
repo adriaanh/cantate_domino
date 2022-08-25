@@ -8,8 +8,7 @@ image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 homepage: false
 sort: 5
 ---
-Het bestuur bestaat uit:
-
+Het bestuur bestaat uit:  
 * Simon den Hartigh, voorzitter
 * Cor Bouman, secretaris
 * Wim de Jong, algemene zaken
