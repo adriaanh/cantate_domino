@@ -1,16 +1,16 @@
 # site settings
 title: Cantate Domino
 subtitle:
-email: youremailaddress@gmail.com
-description: Een koor X Y en Z wat prachtige muziek ten gehore brengt.
+email: wim@jwgroep.nl
+description: Cantate Domino is een oratoriumkoor van reformatorische signatuur. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: Straatnaam 32
-city: Ablasserdam
-zip_code: 3456AH
+street_address: Oosteinde 22
+city: Oud-Alblas
+zip_code: 2969 AS
 country: Nederland
-phone: 0789456123
+phone: 0184-694471
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

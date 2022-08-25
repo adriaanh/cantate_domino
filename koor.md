@@ -5,6 +5,8 @@ description: Over het koor
 image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 nav-menu: true
 show-image: true
+homepage: true
+sort: 2
 ---
 Cantate Domino is een oratoriumkoor van reformatorische signatuur. Het koor is opgericht door dirigent Piet den Uil in 2012 een officiële vereniging geworden in 2013. Wat sindsdien aan composities is uitgevoerd leest u elders op deze site.
 
