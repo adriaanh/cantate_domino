@@ -4,7 +4,7 @@ nav-menu: true
 show-image: false
 title: Plaatsen
 description: Onze plaatsen van uitvoering
-image: /assets/uploads/michael-maasen-bu-6knwqj6u-unsplash.jpg
+image: /assets/uploads/trinitatiskapel-1920x1440.jpeg
 homepage: true
 sort: 4
 ---
