@@ -1,7 +1,7 @@
 ---
 show-image-post: false
 layout: post
-title: Uitvoering 10 juni
+title: Uitvoering DV 26 november 2022
 date: 2022-08-26T21:00:00.000Z
 image:
   href: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
