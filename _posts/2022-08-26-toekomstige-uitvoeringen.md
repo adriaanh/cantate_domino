@@ -7,6 +7,6 @@ attachment:
 ---
 De plannen voor de toekomst zijn:
 
--uitvoering DV 26 november 2022 in de Bethlehemkerk
+\-uitvoering DV 26 november 2022 in de Ontmoetingskerk in Papendrecht
 
 Verdere plannen worden nog uitgewerkt.
