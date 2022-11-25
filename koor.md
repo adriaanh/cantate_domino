@@ -1,10 +1,10 @@
 ---
-title: Koor
 layout: post
-description: Over het koor
-image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 nav-menu: true
 show-image: true
+title: Koor
+description: Over het koor
+image: /assets/uploads/david-beale-gosggt4olns-unsplash.jpg
 homepage: true
 sort: 2
 ---
@@ -18,4 +18,4 @@ Binnen de prot.chr. breedte is sinds enkele decennia sprake van het segment dat 
 
 We trachten daarbij onze geestesgesteldheid op God te richten: laten koor en toehoorders door de muziek heen Godlovers zijn! Onze Schepper gaf immers de zangstem, de woordkunst, de muziek.
 
-We repeteren wekelijks in gebouw De Hoeksteen, Plantageweg 142, in Alblasserdam van 20.00-22.00 uur. Weest zeer welkom!
+We repeteren wekelijks op maandagavond in gebouw De Hoeksteen, Plantageweg 142, in Alblasserdam van 20.00-22.00 uur. Weest zeer welkom!
